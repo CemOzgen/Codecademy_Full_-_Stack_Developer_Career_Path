@@ -1,0 +1,21 @@
+// This is the age of Lale
+let myAge = 22;
+
+// I don't know what that is
+let earlyYears = 2;
+
+earlyYears = earlyYears * 10.5;
+
+// Kuul
+laterYears = myAge -= 2
+//Alright
+laterYears *= 4;
+
+console.log(earlyYears);
+console.log(laterYears);
+
+let myAgeInDogYears = earlyYears + laterYears
+
+let myName = 'Lale Koşucu'.toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
