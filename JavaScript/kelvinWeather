@@ -1,0 +1,13 @@
+// Hello people, it looks like our temperature is 293 kelvin. Please stay inside, so you don't get any sunburn. Thank you for your understanding.
+const kelvin = 293;
+
+// It appears to be it is 20 celsius outside. 
+const celsius = kelvin - 273;
+
+// This is the temperature according to fahrenheit.
+let fahrenheit = celsius * (9/5) + 32;
+
+// Rounded Fahrenheit
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
